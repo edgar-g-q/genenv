@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "genenv"
+version = "1.0.0"
+description = "Generate environment variable files automatically from a template and Azure DevOps library variables"
+authors = ["Edgar Gonzalez <edgar.gonzalez.quevedo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.3"
+rich = "^13.8.1"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.scripts]
+genenv = "genenv.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
