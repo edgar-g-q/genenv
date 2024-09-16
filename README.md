@@ -26,19 +26,19 @@ Additionally, in case your variable groups have some secret values for some of t
 
 ```json
 {
-	"azure_organization": "[YOUR_AZURE_ORGANIZATION]",
-	"azure_token": "[YOUR_AZURE_TOKEN]",
-    "default_variable_group": "[DEFAULT_AZURE_VARIABLE_GROUP]",
-	"secrets": {
-	  "[AZURE_VARIABLE_GROUP_1]": {
-		"[SECRET_1]": "[SECRET_1_VALUE]",
-        "[SECRET_2]": "[SECRET_2_VALUE]"
-	  },
-	  "[AZURE_VARIABLE_GROUP_2]": {
-        "[SECRET_1]": "[SECRET_1_VALUE]",
-        "[SECRET_2]": "[SECRET_2_VALUE]"
-      }
-	}
+  "azure_organization": "[YOUR_AZURE_ORGANIZATION]",
+  "azure_token": "[YOUR_AZURE_TOKEN]",
+  "default_variable_group": "[DEFAULT_AZURE_VARIABLE_GROUP]",
+  "secrets": {
+    "[AZURE_VARIABLE_GROUP_1]": {
+      "[SECRET_1]": "[SECRET_1_VALUE]",
+      "[SECRET_2]": "[SECRET_2_VALUE]"
+    },
+    "[AZURE_VARIABLE_GROUP_2]": {
+      "[SECRET_1]": "[SECRET_1_VALUE]",
+      "[SECRET_2]": "[SECRET_2_VALUE]"
+    }
+  }
 }
 ```
 
